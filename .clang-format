@@ -1,0 +1,15 @@
+# Quy uoc dinh dang ma nguon - ap dung cho ca nhom.
+# Chay truoc moi commit:  make format
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 100
+BreakBeforeBraces: Linux
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+PointerAlignment: Right
+SpaceAfterCStyleCast: true
+AlignConsecutiveMacros: true
+SortIncludes: false

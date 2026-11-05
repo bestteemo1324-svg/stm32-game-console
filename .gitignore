@@ -1,0 +1,28 @@
+# Build
+build/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.su
+
+# Thu vien ngoai - tai ve, KHONG commit (xem README muc Cai dat)
+middlewares/CMSIS/
+middlewares/FreeRTOS/
+startup_stm32f103xb.s
+
+# Unit test
+tests/build/
+tests/*.out
+
+# IDE
+.vscode/
+.idea/
+*.uvprojx
+*.uvoptx
+
+# OS
+.DS_Store
