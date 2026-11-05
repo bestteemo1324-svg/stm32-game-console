@@ -103,13 +103,13 @@ Kênh DMA1: kênh 1 cho ADC1, kênh 3 cho SPI1_TX.
 
 ## 6. Build và nạp
 
-Cần tải thêm ba thứ (không commit, xem `.gitignore`):
+Chạy một lần sau khi clone:
 
+```bash
+./get-libs.sh
 ```
-middlewares/CMSIS/        từ STM32CubeF1: Drivers/CMSIS
-middlewares/FreeRTOS/     FreeRTOS kernel v10.x
-startup_stm32f103xb.s     từ STM32CubeF1
-```
+
+Script tải CMSIS Core (ARM), CMSIS Device F1 (ST), FreeRTOS và file startup, rồi tự kiểm tra đủ chưa.
 
 ```bash
 sudo apt install gcc-arm-none-eabi gdb-multiarch stlink-tools \
